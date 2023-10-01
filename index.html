@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banner</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+  </head>
+  <body>
+    <div id="app">loading...</div>
+
+    <br /><br />
+    <div id="selectBox" />
+  </body>
+
+  <script type="module">
+    import barnersData from "./config.js";
+    const selectBox = document.getElementById("selectBox");
+    for (let i = 0; i < barnersData.length; i++) {
+      const element = barnersData[i];
+      const btn = document.createElement("button");
+      btn.id = i;
+      btn.innerText = barnersData[i].name;
+      selectBox.appendChild(btn);
+    }
+  </script>
+  <script type="module" src="./index.js"></script>
+  <!-- <script>
+    const scriptSrc = `./index.js?r=${Math.floor(Math.random() * 100)}`;
+    const scriptElement = document.createElement("script");
+    scriptElement.type = "module";
+    scriptElement.src = scriptSrc;
+    document.body.appendChild(scriptElement);
+  </script> -->
+</html>

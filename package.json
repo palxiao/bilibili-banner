@@ -1,0 +1,23 @@
+{
+  "name": "bilibili-banner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server",
+    "grab": "node grab"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "puppeteer": "^21.3.6"
+  },
+  "keywords": [
+    "bilibili",
+    "banner",
+    "matrix",
+    "lerp",
+    "node"
+  ],
+  "author": "ShawnPhang<https://m.palxp.cn>",
+  "license": "ISC"
+}
