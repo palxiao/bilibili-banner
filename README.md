@@ -1,5 +1,7 @@
 # bilibili-banner
 
+[在线演示](https://palxiao.github.io/bilibili-banner/)
+
 ## 仿B站首页动态头图
 
 - 原生 JavaScript 实现，无第三方依赖
@@ -21,12 +23,14 @@
 
 接下来需要对每个图层进行参数调试，目前支持参数如下：
 
-- a: 表示加速度，数值越高移动变化越大（接受正负值）
-- deg: 表示旋转幅度，数值越高旋转越快（接受正负值）
-- g: 表示重力，数值越高上下移动变化越大（接受正负值）
-- f: 表示大小变化，对应 CSS transform: scale
-- opacity: 透明度变化，接收一个区间
-- transform: matrix 二维矩阵变换
+| 属性 | 类型 | 说明 |
+| --- | --- | --- |
+| a | number | 表示加速度，数值越高移动变化越大（接受正负值） |
+| deg | number | 表示旋转幅度，数值越高旋转越快（接受正负值） |
+| g | number | 表示重力，数值越高上下移动变化越大（接受正负值） |
+| f | number | 表示大小变化，对应 CSS transform: scale |
+| opacity | array | 透明度变化，接收一个区间 |
+| transform | matrix | 二维矩阵变换 |
 
 > 注：正负值会影响变化的方向
 
