@@ -3,7 +3,7 @@
 [查看在线演示](https://palxiao.github.io/bilibili-banner/)
 
 | 复刻效果展示 | 动态效果演示 |
-| --- | --- | --- |
+| --- | --- |
 | ![](./demo/01.png) | ![](./demo/02.gif) |
 
 ## 仿B站首页动态头图
