@@ -49,7 +49,7 @@ const data = [];
         return { tagName: tagName.toLowerCase(), opacity: [style.opacity,style.opacity], transform, width, height, src, a: 0.01 };
       }, layerElements[i]);
     //   data.push(layerFirstChild);
-        await download(layerFirstChild)
+      await download(layerFirstChild) // 下载并保存数据
     }
   } catch (error) {
     console.error("Error:", error);

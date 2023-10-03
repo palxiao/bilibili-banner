@@ -3,9 +3,10 @@
  * @Date: 2023-10-01 15:52:04
  * @Description:  
  * @LastEditors: ShawnPhang <https://m.palxp.cn>
- * @LastEditTime: 2023-10-01 16:26:19
+ * @LastEditTime: 2023-10-01 22:59:52
  */
 import { barnerImagesData1, barnerImagesData2 } from "./assets/2023-08-21/data.js";
+
 const banner_20231001 = await fetch('./assets/2023-10-01/data.json?r='+Math.random())
 
 export default [

@@ -1,6 +1,10 @@
 # bilibili-banner
 
-[在线演示](https://palxiao.github.io/bilibili-banner/)
+[查看在线演示](https://palxiao.github.io/bilibili-banner/)
+
+| 复刻效果展示 | 动态效果演示 |
+| --- | --- | --- |
+| ![](./demo/01.png) | ![](./demo/02.gif) |
 
 ## 仿B站首页动态头图
 
@@ -9,7 +13,7 @@
 
 ### 准备工作
 
-运行 `pnpm i` 或 `yarn / npm i` 安装依赖
+运行 `pnpm i` 或 `yarn / npm i` 安装项目本地依赖
 
 ### 查看演示网页
 
@@ -18,7 +22,7 @@
 ### 获取最新效果
 
 1. 运行 `npm run grab`，抓取B站首图数据，在 `assets` 目录下生成数据目录（以当天日期命名）
-2. 在 `config.js` 中添加配置
+2. 在 `config.js` 中添加配置（使用 fetch 引入 json）
 3. 运行 `npm run serve`
 
 接下来需要对每个图层进行参数调试，目前支持参数如下：
@@ -30,10 +34,9 @@
 | g | number | 表示重力，数值越高上下移动变化越大（接受正负值） |
 | f | number | 表示大小变化，对应 CSS transform: scale |
 | opacity | array | 透明度变化，接收一个区间 |
-| transform | matrix | 二维矩阵变换 |
 
 > 注：正负值会影响变化的方向
 
-### 技术讲解文章
+### 技术文章
 
 [如何用原生 JS 复刻 Bilibili 首页头图的视差交互效果](https://juejin.cn/post/7269385060611997711)
