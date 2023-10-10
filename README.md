@@ -1,10 +1,9 @@
+
 # bilibili-banner
 
 [查看在线演示](https://palxiao.github.io/bilibili-banner/)
 
-| 复刻效果展示 | 动态效果演示 |
-| --- | --- |
-| ![](./demo/01.png) | ![](./demo/02.gif) |
+![](./demo/01.png)
 
 ## 仿B站首页动态头图
 
@@ -21,7 +20,7 @@
 
 ### 获取最新效果
 
-1. 运行 `npm run grab`，抓取B站首图数据，在 `assets` 目录下生成数据目录（以当天日期命名）
+1. 运行 `npm run grab`，抓取B站首图数据，自动在 `assets` 目录下生成数据（以当天日期命名）
 2. 在 `config.js` 中添加配置（使用 fetch 引入 json）
 3. 运行 `npm run serve`
 

@@ -1,3 +1,10 @@
+/*
+ * @Author: ShawnPhang
+ * @Date: 2023-09-30 21:58:50
+ * @Description: 网页抓取
+ * @LastEditors: ShawnPhang <https://m.palxp.cn>
+ * @LastEditTime: 2023-10-10 17:40:31
+ */
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
@@ -36,7 +43,7 @@ const data = [];
     });
 
     await page.waitForSelector(".animated-banner");
-    await sleep(1000);
+    await sleep(3000);
 
     // 获取所有 ".layer" 元素
     const layerElements = await page.$$(".animated-banner .layer");
