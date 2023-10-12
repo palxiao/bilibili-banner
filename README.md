@@ -1,9 +1,16 @@
+<!--
+ * @Author: ShawnPhang
+ * @Date: 2023-10-03 22:51:33
+ * @Description:  
+ * @LastEditors: ShawnPhang <https://m.palxp.cn>
+ * @LastEditTime: 2023-10-12 14:17:08
+-->
 
 # bilibili-banner
 
 [查看在线演示](https://palxiao.github.io/bilibili-banner/)
 
-![](./demo/01.png)
+![](./demo.png)
 
 ## 仿B站首页动态头图
 
