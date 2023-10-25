@@ -9,7 +9,13 @@ import { barnerImagesData1, barnerImagesData2 } from "./assets/2023-08-21/data.j
 
 const banner_20231001 = await fetch('./assets/2023-10-01/data.json?r='+Math.random())
 
+const banner_20231025 = await fetch('./assets/2023-10-25/data.json?r='+Math.random())
+
 export default [
+    {
+        name: '打工松鼠 - 猫头鹰',
+        data: await banner_20231025.json()
+    },
     {
         name: '海上明月 - 兔子',
         data: await banner_20231001.json()
