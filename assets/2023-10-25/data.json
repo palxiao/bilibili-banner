@@ -16,7 +16,7 @@
     "width": 2100,
     "height": 197,
     "src": "./assets/2023-10-25/0876da4f3ec73ff180fc87b46b6d1bcf4d52030a.png@1c.webp",
-    "a": 0
+    "a": 0.01
   },
   {
     "tagName": "img",
@@ -54,7 +54,7 @@
     "width": 2100,
     "height": 197,
     "src": "./assets/2023-10-25/e33992d2d75647af38c50792c199fb9db006786c.png@1c.webp",
-    "a": 0
+    "a": 0.02
   },
   {
     "tagName": "img",
@@ -73,7 +73,7 @@
     "width": 1649,
     "height": 169,
     "src": "./assets/2023-10-25/57102cf6e2e2845f2773581928c1d0f0c1985a3e.png@1c.webp",
-    "a": 0
+    "a": 0.027
   },
   {
     "tagName": "img",
@@ -92,7 +92,7 @@
     "width": 90,
     "height": 81,
     "src": "./assets/2023-10-25/0f79aa287163a3271c6cb22a73a6dc0fc210ab7c.png@1c.webp",
-    "a": 0
+    "a": 0.028
   },
   {
     "tagName": "img",
@@ -111,7 +111,7 @@
     "width": 84,
     "height": 29,
     "src": "./assets/2023-10-25/639de634f90688e86b7bd32924cfb029a316cde4.png@1c.webp",
-    "a": 0.25
+    "a": 0.40
   },
   {
     "tagName": "img",
@@ -130,7 +130,7 @@
     "width": 544,
     "height": 197,
     "src": "./assets/2023-10-25/852c3bd9d9608ceccb7265de8cea7cf3a4b039eb.png@1c.webp",
-    "a": -0.2
+    "a": -0.17
   },
   {
     "tagName": "img",
@@ -149,7 +149,7 @@
     "width": 227,
     "height": 197,
     "src": "./assets/2023-10-25/9556f65510f73c44aa6756ee9b8cf7fc2562b906.png@1c.webp",
-    "a": 0.15
+    "a": 0.25
   },
   {
     "tagName": "img",
@@ -168,7 +168,7 @@
     "width": 97,
     "height": 108,
     "src": "./assets/2023-10-25/530a4624fe408881101885c6f24c72e8c2a14fb6.png@1c.webp",
-    "a": 0.12
+    "a": 0.084
   },
   {
     "tagName": "img",
@@ -187,7 +187,7 @@
     "width": 1714,
     "height": 74,
     "src": "./assets/2023-10-25/bf896616dec163402ec79a81f936af67932eca2f.png@1c.webp",
-    "a": 0.25
+    "a": 0.14
   },
   {
     "tagName": "img",
@@ -206,7 +206,7 @@
     "width": 180,
     "height": 147,
     "src": "./assets/2023-10-25/32aa867cd3e8fba371a2be90d7d844a68c67f7a5.png@1c.webp",
-    "a": 0.15
+    "a": 0.12
   },
   {
     "tagName": "img",
@@ -225,7 +225,7 @@
     "width": 207,
     "height": 161,
     "src": "./assets/2023-10-25/c6263485a0218c887848c47a0fe4f515006e1567.png@1c.webp",
-    "a": 0.18
+    "a": 0.15
   },
   {
     "tagName": "img",
@@ -244,7 +244,7 @@
     "width": 1650,
     "height": 63,
     "src": "./assets/2023-10-25/cd4fda9478b06a8d81cd04f69d7a2ad475d1db40.png@1c.webp",
-    "a": 0.25
+    "a": 0.17
   },
   {
     "tagName": "img",
@@ -263,7 +263,7 @@
     "width": 257,
     "height": 161,
     "src": "./assets/2023-10-25/0479542df6a7c5deddf60fbbf63b6e1f1f770c08.png@1c.webp",
-    "a": 0.25
+    "a": 0.203
   },
   {
     "tagName": "img",
@@ -282,7 +282,7 @@
     "width": 2550,
     "height": 239,
     "src": "./assets/2023-10-25/b6f4359409b4550fb38594d8c227902db29c720a.png@1c.webp",
-    "a": 0.38
+    "a": 0.356
   },
   {
     "tagName": "img",
@@ -301,7 +301,7 @@
     "width": 501,
     "height": 225,
     "src": "./assets/2023-10-25/8a6899088fc9dcd37a0039884fb77f69dc3b1c30.png@1c.webp",
-    "a": 0.4
+    "a": 0.58
   },
   {
     "tagName": "img",
@@ -320,6 +320,6 @@
     "width": 409,
     "height": 169,
     "src": "./assets/2023-10-25/96704a6197153e1717a910e6c227937f34743cee.png@1c.webp",
-    "a": 0
+    "a": 0.63
   }
 ]
