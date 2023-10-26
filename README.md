@@ -3,7 +3,7 @@
  * @Date: 2023-10-03 22:51:33
  * @Description:  
  * @LastEditors: ShawnPhang <https://m.palxp.cn>
- * @LastEditTime: 2023-10-26 11:39:21
+ * @LastEditTime: 2023-10-26 14:55:45
 -->
 
 # bilibili-banner 仿B站首页动态头图
@@ -28,8 +28,10 @@
 
 ### 获取最新效果
 
-1. 运行 `npm run grab`，抓取B站首图数据，自动在 `assets` 目录下生成数据（以当天日期命名）
+1. 运行 `npm run grab xxx`，抓取B站首图数据，自动在 `assets` 目录下生成数据（以当天日期命名）
 2. 运行 `npm run serve` 查看效果
+
+例如，在 10 月 25 号这天发现 B 站更新了 Banner，可以运行：`npm run grab "打工松鼠 - 猫头鹰"`（需要给 Banner 起个名字），然后运行 `npm run serve`，访问 `http://127.0.0.1:8080` 即可看到最新的效果。
 
 > 可选：在 `config.js` 中修改配置（使用 fetch 引入 json）
 

@@ -3,14 +3,14 @@
  * @Date: 2023-09-30 21:58:50
  * @Description: 网页抓取
  * @LastEditors: ShawnPhang <https://m.palxp.cn>
- * @LastEditTime: 2023-10-26 11:27:52
+ * @LastEditTime: 2023-10-26 14:40:54
  */
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
 
 if (!process.argv[2]) {
-  console.error('--> Banner 未命名，请正确运行命令，例如：npm run grab xxx')
+  console.error('--> Banner 未命名, 请正确运行命令, 例如: npm run grab xxx')
   return
 }
 console.log('正在下载资源中...');
@@ -85,7 +85,7 @@ const data = [];
         const matches = el.firstElementChild.style.transform.match(pattern);
         return matches.slice(1).map(x => +x.replace('px', ''))[0]
       }, layerElements[i]);
-    data[i].a = (skew - data[i].transform[4]) / 1000
+      data[i].a = (skew - data[i].transform[4]) / 1000
     }
   
   } catch (error) {
