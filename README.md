@@ -3,23 +3,24 @@
  * @Date: 2023-10-03 22:51:33
  * @Description:  
  * @LastEditors: ShawnPhang <https://m.palxp.cn>
- * @LastEditTime: 2023-10-12 14:17:08
+ * @LastEditTime: 2023-10-26 11:39:21
 -->
 
-# bilibili-banner
+# bilibili-banner 仿B站首页动态头图
+
+- 原生 JavaScript 实现，无第三方依赖
+- 自动抓取资源，生成配置，可快速复刻 B 站动态 Banner 及交互效果，接近 1:1 还原
 
 [查看在线演示](https://palxiao.github.io/bilibili-banner/)
 
-![](./demo.png)
+![](./preview0.png)
 
-## 仿B站首页动态头图
+![](./preview1.png)
 
-- 原生 JavaScript 实现，无第三方依赖
-- 自动抓取最新效果图，可快速复刻出B站首页 Banner，接近 1:1 还原效果
 
 ### 准备工作
 
-运行 `pnpm i` 或 `yarn / npm i` 安装项目本地依赖
+运行 `pnpm i` 或 `yarn / npm i` 安装项目本地运行环境
 
 ### 查看演示网页
 
@@ -28,10 +29,13 @@
 ### 获取最新效果
 
 1. 运行 `npm run grab`，抓取B站首图数据，自动在 `assets` 目录下生成数据（以当天日期命名）
-2. 在 `config.js` 中添加配置（使用 fetch 引入 json）
-3. 运行 `npm run serve`
+2. 运行 `npm run serve` 查看效果
 
-接下来需要对每个图层进行参数调试，具体步骤为：打开 `assets` 目录下对应的 `data.json` 文件，修改其中每个对象的参数，刷新网页查看效果。
+> 可选：在 `config.js` 中修改配置（使用 fetch 引入 json）
+
+### 手动调整参数
+
+打开 `assets` 目录下对应的 `data.json` 文件，修改其中每个对象的参数，刷新网页查看效果。
 
 目前支持参数如下：
 
