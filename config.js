@@ -1,10 +1,3 @@
-/*
- * @Author: ShawnPhang
- * @Date: 2023-10-01 15:52:04
- * @Description: 配置文件
- * @LastEditors: ShawnPhang <https://m.palxp.cn>
- * @LastEditTime: 2023-10-26 11:28:13
- */
 import { barnerImagesData1, barnerImagesData2 } from "./assets/2023-08-21/data.js";
 // -- IMPORT --
 const banner_20231026 = await fetch('./assets/2023-10-26/data.json?r='+Math.random())

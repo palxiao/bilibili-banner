@@ -3,7 +3,7 @@
  * @Date: 2023-09-30 21:58:50
  * @Description: 网页抓取
  * @LastEditors: ShawnPhang <https://m.palxp.cn>
- * @LastEditTime: 2023-10-26 14:40:54
+ * @LastEditTime: 2023-10-31 09:35:25
  */
 const puppeteer = require("puppeteer");
 const fs = require("fs");
@@ -44,7 +44,7 @@ const data = [];
   });
   const page = await browser.newPage();
   page.setViewport({
-    width: 1378,
+    width: 1650,
     height: 800
   })
 
