@@ -49,15 +49,16 @@ function initItems() {
     // 窗口大小变动时重新计算内容
     const cloneData = JSON.parse(JSON.stringify(allImagesData))
     for (let i = 0; i < layers.length; i++) {
+      const item = cloneData[i];
       layers[i].firstElementChild.style.width = `${
-        cloneData[i].width * compensate
+        item.width * compensate
       }px`;
       layers[i].firstElementChild.style.height = `${
-        cloneData[i].height * compensate
+        item.height * compensate
       }px`;
-      cloneData[i].transform[4]= cloneData[i].transform[4]*compensate
-      cloneData[i].transform[5]= cloneData[i].transform[5]*compensate
-      layers[i].style.transform = new DOMMatrix(cloneData[i].transform)
+      item.transform[4]= item.transform[4]*compensate
+      item.transform[5]= item.transform[5]*compensate
+      layers[i].style.transform = new DOMMatrix(item.transform)
     }
   }
 }
