@@ -3,7 +3,7 @@
  * @Date: 2023-10-03 22:51:33
  * @Description:  
  * @LastEditors: ShawnPhang <https://m.palxp.cn>
- * @LastEditTime: 2023-10-26 14:55:45
+ * @LastEditTime: 2023-11-17 11:02:19
 -->
 
 # bilibili-banner 仿B站首页动态头图
@@ -17,6 +17,9 @@
 
 ![](./preview1.png)
 
+------
+
+更新可能不及时或错过，欢迎 PR ~
 
 ### 准备工作
 
