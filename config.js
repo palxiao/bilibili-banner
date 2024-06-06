@@ -1,5 +1,6 @@
 import { barnerImagesData1, barnerImagesData2 } from "./assets/2023-08-21/data.js";
 // -- IMPORT --
+const banner_20240606 = await fetch('./assets/2024-06-06/data.json?r='+Math.random())
 const banner_20240201 = await fetch('./assets/2024-02-01/data.json?r='+Math.random())
 const banner_20231212 = await fetch('./assets/2023-12-12/data.json?r='+Math.random())
 const banner_20231117 = await fetch('./assets/2023-11-17/data.json?r='+Math.random())
@@ -8,6 +9,10 @@ const banner_20231001 = await fetch('./assets/2023-10-01/data.json?r='+Math.rand
 
 export default [
 // -- ADD NEW --
+{
+    name: "花草丛生 - 大橘猫",
+    data: await banner_20240606.json()
+},
 {
     name: "保留节目 - 包饺砸",
     data: await banner_20240201.json()
