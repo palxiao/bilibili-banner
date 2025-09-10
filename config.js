@@ -1,5 +1,6 @@
 import { barnerImagesData1, barnerImagesData2 } from "./assets/2023-08-21/data.js";
 // -- IMPORT --
+const banner_20250910 = await fetch('./assets/2025-09-10/data.json?r='+Math.random())
 const banner_20250615 = await fetch('./assets/2025-06-15/data.json?r='+Math.random())
 const banner_20250405 = await fetch('./assets/2025-04-05/data.json?r='+Math.random())
 const banner_20241226 = await fetch('./assets/2024-12-26/data.json?r='+Math.random())
@@ -14,6 +15,10 @@ const banner_20231001 = await fetch('./assets/2023-10-01/data.json?r='+Math.rand
 
 export default [
 // -- ADD NEW --
+{
+    name: "流星坠雨落沙滩,月如钩",
+    data: await banner_20250910.json()
+},
 {
     name: "清凉一夏 - 水漫街头",
     data: await banner_20250615.json()

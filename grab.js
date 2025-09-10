@@ -3,7 +3,7 @@
  * @Date: 2023-09-30 21:58:50
  * @Description: 网页抓取
  * @LastEditors: ShawnPhang <https://m.palxp.cn>
- * @LastEditTime: 2024-12-26 20:17:15
+ * @LastEditTime: 2025-09-10 16:38:49
  */
 const puppeteer = require("puppeteer");
 const fs = require("fs");
@@ -52,10 +52,14 @@ const data = [];
     await page.goto("https://www.bilibili.com/", {
       waitUntil: "domcontentloaded",
     });
+    await sleep(1000);
+    await page.goto("https://www.bilibili.com/", {
+      waitUntil: "domcontentloaded",
+    });
 
     await page.waitForSelector(".animated-banner");
 
-    await sleep(3000);
+    await sleep(2000);
 
     // 获取所有 ".layer" 元素
     let layerElements = await page.$$(".animated-banner .layer");
