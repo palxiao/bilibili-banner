@@ -24,6 +24,30 @@ img {
   pointer-events: none;
 }
 
+#selectBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 1em;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
 #selectBox > button {
-  margin: 0 1em 1em 0;
+  flex: 0 0 auto;
+  padding: 0.6em 1em;
+  border: 1px solid #e5e9ef;
+  border-radius: 6px;
+  background-color: #f4f5f7;
+  color: #222222;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#selectBox > button:hover {
+  background-color: #e5e9ef;
+  transform: translateY(-2px);
 }

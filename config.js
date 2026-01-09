@@ -21,7 +21,7 @@ export default [
     data: await banner_20260109.json()
 },
 {
-    name: "流星坠雨落沙滩,月如钩",
+    name: "流星坠雨落沙滩 - 月如钩",
     data: await banner_20250910.json()
 },
 {
